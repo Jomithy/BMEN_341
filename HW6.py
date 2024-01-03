@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 
-data = pd.read_csv("C:\\Users\\jomil\\Documents\\BMEN 341\\Homework\\BMEN341_Spring23_HW6_PressureGradData.txt")
+data = pd.read_csv("C")
 dpdz =np.asfarray(data.iloc[:,0])
 period = 1/3
 omega = 2*np.pi/period
